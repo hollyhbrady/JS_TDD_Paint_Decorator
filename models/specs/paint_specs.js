@@ -6,4 +6,9 @@ describe('Paint', function(){
     beforeEach(function(){
         paint = new Paint(20, true);
     });
+
+    it('should have a number of litres of paint', function(){
+        const actual = paint.litres;
+        assert.strictEqual(actual, 20);
+    });
 });
