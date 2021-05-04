@@ -3,4 +3,9 @@ const Room = function (square_meters, painted){
     this.painted = false;
 };
 
+Room.prototype.paintRoom = function() {
+    this.painted = true;
+};
+
+
 module.exports = Room;
