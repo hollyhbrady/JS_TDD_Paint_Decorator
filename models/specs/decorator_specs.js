@@ -9,6 +9,6 @@ describe('Decorator', function(){
 
     it('should start with empty paint stock', function(){
         const actual = decorator.stock;
-        assert.strictEqual(actual, []);
+        assert.deepStrictEqual(actual, []);
     });
 })
