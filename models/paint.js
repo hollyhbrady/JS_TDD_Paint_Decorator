@@ -3,4 +3,8 @@ const Paint = function(litres, full){
     this.full = true;
 };
 
+Paint.prototype.emptyCan = function(){
+    return this.full = false;
+};
+
 module.exports = Paint;
